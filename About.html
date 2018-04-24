@@ -4,6 +4,122 @@
    <title>About</title>
 </head>
 <body>
+    <style>
+         <style>
+        .stage {
+            width: 300px;
+            height: 300px;
+
+            perspective: 1600px;
+            perspective-origin: 50% -240px;
+            right: 50%;
+            position: absolute;
+        }
+
+        figure {
+            display: block;
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            font-size: 100px;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .cube {
+            transform-style: preserve-3d;
+        }
+
+        figure {
+            transform-origin: 50% 50% 0;
+        }
+
+        .front {
+            transform: translateZ(150px);
+            background-color: aqua;
+        }
+
+        .back {
+            transform: rotateY(180deg) translateZ(150px);
+            background-color: rgb(214, 196, 255);
+            text-align: center;
+            border-color: fuchsia
+        }
+
+        .top {
+            transform: rotateX(90deg) translateZ(150px);
+            background-color: red;
+        }
+
+        .bottom {
+            transform: rotateX(90deg) translateZ(-150px);
+            background-color: yellow;
+        }
+
+        .left {
+            transform: rotateY(-90deg) translateZ(150px);
+            background-color: green;
+        }
+
+        .right {
+            transform: rotateY(90deg) translateZ(150px);
+            background-color: rgba(133, 131, 236, 0.959);
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotateY(360deg);
+            }
+            100% {
+                transform: rotateY(0deg);
+            }
+        }
+
+        .cube {
+            animation: rotate 10s infinite linear;
+        }
+
+
+        #CenteredDiv {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="stage">
+        <div class="cube">
+            <figure class="back">
+                    <p>Mohsan</p>
+                
+            </figure>
+            <figure class="top">
+                
+            </figure>
+
+            <figure class="bottom">
+                <p>CSS</p>
+            </figure>
+            <figure class="left">
+           <img src="sheer.jpg" alt="">
+            </figure>
+            <figure class="right">
+                <img src="popl.jpg" alt="">
+            </figure>
+            <figure class="front">
+                <img src="moshan.jpg"
+            </figure>
+
+        </div>
+    </div>
+
+
+</body>
+        </style>
         <nav>
                 <a href="Home.html">Home</a>
                 <a href="Products.html">Products</a>
