@@ -13,9 +13,7 @@ a {
     background: lightcoral;
     
 }
-About{
-    <style>
-    <style>
+
    .stage {
        width: 150px;
        height: 150px;
@@ -96,36 +94,3 @@ About{
        left: 50%;
        background-color: blueviolet;
    }
-
-<body>
-
-<div class="stage">
-   <div class="cube">
-       <figure class="back">
-               <p>Mohsan</p>
-           
-       </figure>
-       <figure class="top">
-           
-       </figure>
-
-       <figure class="bottom">
-           <p>CSS</p>
-       </figure>
-       <figure class="left">
-      <img src="sheer.jpg" alt="">
-       </figure>
-       <figure class="right">
-           <img src="popl.jpg" alt="">
-       </figure>
-       <figure class="front">
-           <img src="moshan.jpg"
-       </figure>
-
-   </div>
-</div>
-
-
-</body>
-   </style>
-}
