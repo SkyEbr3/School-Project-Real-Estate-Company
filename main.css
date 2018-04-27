@@ -1,9 +1,7 @@
 body {
     background-color: lightblue;
 }
-p {
-    color: blue;
-}
+
 h1 {
     text-align: center;
     color: red;
@@ -13,3 +11,4 @@ a {
     background: lightcoral;
     
 }
+
