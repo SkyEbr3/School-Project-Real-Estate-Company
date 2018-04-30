@@ -2,7 +2,7 @@ body {
     background-color: lightblue;
 }
 
-h1 {
+h1, em {
     text-align: center;
     color: red;
     margin-top: 0;
@@ -12,8 +12,5 @@ a {
     font-size: 20px;
     
 }
-.languages {
-    color: red;
-    text-align: right;
-}
+
 
