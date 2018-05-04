@@ -8,9 +8,25 @@ h1, em {
     margin-top: 0;
 }
 a {
-    background: lightcoral;
+    background: lightgreen;
     font-size: 20px;
     
+}
+header {
+    margin: 100%px;
+    padding: 100%px;
+    background-color: blue;
+}
+nav {
+    padding: 5px;
+    margin: 5px;
+    
+}
+.me {
+    background-color: yellow
+}
+span{
+    color:blue;
 }
 
 
