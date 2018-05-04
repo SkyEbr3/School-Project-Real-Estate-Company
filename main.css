@@ -23,7 +23,7 @@ nav {
     
 }
 .me {
-    background-color: yellow
+    background-color:teal;
 }
 span{
     color:blue;
@@ -34,5 +34,14 @@ img {
     width: 400px;
     height: 600;
 }
+.p {
+    background-color: forestgreen;
+}
 
 
+#search {
+    float: right;
+    padding: 50%px;
+    border-color:blue;
+    text-align: center;
+}
