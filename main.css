@@ -28,5 +28,11 @@ nav {
 span{
     color:blue;
 }
+img {
+    float: left;
+    padding: 5px;
+    width: 400px;
+    height: 600;
+}
 
 
