@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
 <body>
-
-<form>
- <fieldset>
-  <legend>koon defini:</legend>
-  Name: <input type="text"><br>
-  Penis color: <input type="text"><br>
-  Size of your penis: <input type="text">
- </fieldset>
-</form>
-......
+        title>Dari Page</title>
+        <style type="text/css">
+          body.fr > p[lang=en] {
+            display: none;
+          }
+          body.en > p[lang=fr] {
+            display: none;
+          }
+        </style>
+      <body class="en">
+        <button onclick="document.body.className='en'">English</button>
+        <button onclick="document.body.className='fr'">French</button>
+      </body>
+    
 
 </body>
 </html>
