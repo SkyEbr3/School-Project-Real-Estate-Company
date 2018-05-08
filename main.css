@@ -1,47 +1,25 @@
 body {
-    background-color: lightblue;
+    font-family: arial, sans-serif;
+    text-align: center;
+}
+#T0IF {
+    width: 700px;
+    height: 200px;
+    background: #cccc;
+}
+#sky {
+    width: 450px;
+    height: 100px;
+    background: lightblue;
 }
 
-h1, em {
-    text-align: center;
-    color: red;
-    margin-top: 0;
-}
-a {
-    background: lightgreen;
-    font-size: 20px;
+#sky ul li {
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+    padding: 10px;
     
 }
-header {
-    margin: 100%px;
-    padding: 100%px;
-    background-color: blue;
-}
-nav {
-    padding: 5px;
-    margin: 5px;
-    
-}
-.me {
-    background-color:teal;
-}
-span{
-    color:blue;
-}
-img {
-    float: left;
-    padding: 5px;
-    width: 400px;
-    height: 600;
-}
-.p {
-    background-color: forestgreen;
-}
-
-
-#search {
-    float: right;
-    padding: 50%px;
-    border-color:blue;
-    text-align: center;
+#sky a {
+     text-decoration: none;
 }
