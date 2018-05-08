@@ -1,25 +1,49 @@
 body {
-    font-family: arial, sans-serif;
-    text-align: center;
+    background: url(folder/pic12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
 }
-#T0IF {
-    width: 700px;
-    height: 200px;
-    background: #cccc;
-}
-#sky {
-    width: 450px;
-    height: 100px;
-    background: lightblue;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #365412;
 }
 
-#sky ul li {
-    list-style: none;
-    display: inline;
-    font-weight: bold;
-    padding: 10px;
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#search {
+    text-align: center;
+   float: right;
+   background-color:darkgoldenrod;
+}
+.logo {
+    background: url(folder/pic8.gif);
+    background-size: cover;
+   size: 100%;
+    width: 50%;
+    height:50%;
     
 }
-#sky a {
-     text-decoration: none;
+p {
+    font-size: 20px;
+    text-align: center;
+    color: blue;
 }
+
