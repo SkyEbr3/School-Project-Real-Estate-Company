@@ -1,23 +1,7 @@
 body {
-    background-color: lightblue;
-}
-p {
-    color: blue;
-}
-h1 {
-    text-align: center;
-    color: red;
-    margin-top: 0;
-}
-a {
-    background: lightcoral;
-    body {
-        font-family: Arial;
-        padding: 10px;
-        b
     * {
         box-sizing: border-box;
-    }ackground: #f1f1f1;
+    }background: #f1f1f1; f
     }
     
     /* Header/Blog Title */
@@ -110,5 +94,6 @@ a {
         .topnav a {
             float: none;
             width: 100%;
+            
         }
     }
