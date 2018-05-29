@@ -12,6 +12,7 @@ body {
   overflow: hidden;
   background-color: #CCCC00;
   padding: 20px 10px;
+  height: 25ch
 }
 
 .header a {
