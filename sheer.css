@@ -1,4 +1,4 @@
-<style>
+﻿<style>
 * {box-sizing: border-box;}
 
 body { 
@@ -8,7 +8,7 @@ body {
 
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #CCCC00;
   padding: 20px 10px;
 }
 
@@ -61,4 +61,13 @@ body {
     color: white;
     text-align: center;
  }
+ 
+ 
+ .img {
+  float:left;
+  width:300px;
+  height:200px;
+ }	
+	
+}
  
