@@ -1,49 +1,185 @@
-body {
-    background: url(folder/pic12.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+body, html {
+   padding: 0;
+   margin: 0;
    
 }
-ul {
-    list-style-type: none;
-    margin: 0;
+html {
+    background: #c8e4f8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 50px;
+}
+
+#main-header {
+  background: #e1ffe1;
+  border: 1px dashed #000000;
+  box-shadow: 0 2px 3px 2px #f86815;
+  margin-bottom: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+}
+
+#main-header nav ul {
+    list-style: none;
     padding: 0;
-    overflow: hidden;
-    background-color: #365412;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
-}
-
-#search {
-    text-align: center;
-   float: right;
-   background-color:darkgoldenrod;
-}
-.logo {
-    background: url(folder/pic8.gif);
-    background-size: cover;
-   size: 100%;
-    width: 50%;
-    height:50%;
+    margin: 0;
+    font-size: 20px;
     
 }
-p {
+#main-header h1 {
     font-size: 20px;
-    text-align: center;
-    color: blue;
+    margin: 0;
+    margin-right: 20px;
+    margin-left: 5px;
+    float: left;
+   padding: 5px;
+    
+    
+}
+#main-header nav ul li {
+    float: left;
+    margin-left: 20px;
+    
+}
+#main-header nav ul li a {
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+}
+#main-header nav ul li a:hover {
+    background: #55f0b4;
+       border-radius: 20px;
 }
 
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+  h4 {
+      text-align: center;
+      font-size: 30px;
+  }
+
+
+
+input {
+    padding: 3px;
+    margin: 5px;
+    float: right;
+    border-radius: 10px;
+    background: #cee6f0;
+    padding-right: 10px;
+    margin-right: 30px; 
+}
+
+
+#about img {
+    width: 150px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    
+}
+#about {
+    background: #f1f1f1;
+    
+   
+    
+    
+}
+#about figure {
+    margin: 0;
+    
+    
+}
+.container {
+    width: 960px;
+    margin: auto;
+    margin-bottom: 10px;
+  
+    
+    
+   
+}
+.card {
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #f1f1f1;
+    
+    
+}
+span {
+    background: rgb(247, 190, 190);
+    border-radius:5px;
+    margin-right: 10px;
+}
+.gif {
+    float: right;
+ 
+}
+
+
+.bb a {
+    text-decoration: none;
+    
+}
+.bb ul li {
+    list-style: none;
+    
+}
+
+.dd ul li {
+   display: inline-block;
+    list-style: none;
+    
+    
+}
+.dd ul li::after {
+    content: "-";
+}
+.dd ul li:last-child::after {
+    content: "";
+}
+.dd ul li a:hover {
+    background: rgb(158, 194, 248);
+    border-radius: 8px;
+}
+.social.instagram {
+    background: right no-repeat;
+    
+}
+.social.instagram {
+    background-image: url(folder/instagram1.png);
+}
+#footer h3 {
+    padding-left: 40px;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 0;
+}
+.first  figure {
+    text-align: center;
+}
+.first figure img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+#main-footer img {
+    height: 150px;
+    width: 100px;
+}
+#main-footer {
+   
+   margin-top: 50%;
+}
+#footer {
+    margin-top: 50%;
+}
