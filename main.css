@@ -152,13 +152,13 @@ span {
     background: rgb(158, 194, 248);
     border-radius: 8px;
 }
-.social.instagram {
-    background: right no-repeat;
-    
+
+.socialImg{ 
+    /*The logos for social networks are styled here !*/
+    width:40px;
+    height:40px;
 }
-.social.instagram {
-    background-image: url(folder/instagram1.png);
-}
+
 #footer h3 {
     padding-left: 40px;
     border-bottom: 1px solid #e1e1e1;
