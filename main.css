@@ -12,7 +12,7 @@ html {
 #main-header {
   background: #e1ffe1;
   border: 1px dashed #000000;
-  box-shadow: 0 2px 3px 2px #f86815;
+  box-shadow: 0 2px 3px 2px #f815ed;
   margin-bottom: 10px;
   position: fixed;
   top: 0;
@@ -174,7 +174,7 @@ span {
 }
 #main-footer img {
     height: 150px;
-    width: 100px;
+    width: 150px;
 }
 #main-footer {
    
@@ -182,4 +182,34 @@ span {
 }
 #footer {
     margin-top: 50%;
+}
+.responsive {
+    overflow: auto;
+    padding: 6px;
+    float: left;
+    width: 24.9999%;
+    
+}
+
+.gallery {
+    border: 1px solid#e1e1e1;
+}
+.gallery:hover {
+border: 1px solid #e1e1e1;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+.disk {
+    padding: 15px;
+    text-align: center;
+}
+* {
+    box-sizing:border-box;
+}
+@media only screen and (max-width:600px){
+    .responsive{
+        width: 100%;
+    }
 }
