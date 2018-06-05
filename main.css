@@ -189,7 +189,7 @@ span {
     margin-bottom: 0;
 }
 .responsive {
-    overflow: auto;
+    overflow:hidden;
     padding: 6px;
     float: left;
     width: 24.9999%;
@@ -205,6 +205,10 @@ border: 1px solid #e1e1e1;
 .gallery img {
     width: 100%;
     height: auto;
+}
+.gallery img {
+    height: 400px;
+    width: 600px;
 }
 .disk {
     padding: 15px;
