@@ -1,14 +1,27 @@
-<style>
+﻿<style>
 * {box-sizing: border-box;}
 
-body { 
-  margin: 0;
-  font-family: Arial;
+
+body {
+	margin: 0;
+	font-family: Arial;
 }
+
+
+.marg {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+.cent {
+	   text-align: center;
+}
+
 
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #f44242;
   padding: 20px 10px;
 }
 
@@ -34,7 +47,7 @@ body {
 }
 
 .header a.active {
-  background-color: dodgerblue;
+  background-color: black;
   color:pink;
 }
 
@@ -52,13 +65,31 @@ body {
     float: none;
   }
 
-  .footer {
+
+.margin {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+
+ .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-color:blue;
     color: white;
     text-align: center;
  }
+ 
+ 
+ .img {
+  float:left;
+  width:300px;
+  height:200px;
+ }	
+	
+}
  
