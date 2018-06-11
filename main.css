@@ -1,4 +1,4 @@
-body {
+     .body {
      box-sizing: border-box;
     background: #f1f1f1; 
     }
@@ -48,19 +48,8 @@ body {
         width: 100%;
         padding: 20px;
     }
-    
-    .card {
-        background-color: white;
-        padding: 20px;
-        margin-top: 20px;
-    }
-    
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
     .footer {
+    
         padding: 20px;
         text-align: center;
         background: #ddd;
