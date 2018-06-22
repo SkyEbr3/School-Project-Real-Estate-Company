@@ -71,6 +71,10 @@
         }
     }
     div.gallery {
+        justify-items: inherit;
+        justify-center;
+    }
+    }
         border: 1px solid #ccc;
     }
     
