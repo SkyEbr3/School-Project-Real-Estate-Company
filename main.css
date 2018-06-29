@@ -72,7 +72,7 @@ html {
     color: #000000;
 }
 #main-header nav ul li a:hover {
-    background: #f5bdbd;
+    background: #b2f892;
        border-radius: 20px;
        text-decoration: none;
 }
@@ -99,7 +99,7 @@ input {
     padding-right: 10px;
     margin-right: 0; 
     margin-left: 10px;
-    box-shadow: 0 1px 4px 3px #f3a3d8;
+    box-shadow: 0 1px 4px 3px #794af8;
     font-weight: bold;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    
@@ -199,6 +199,7 @@ span {
     width:50px;
     height:50px;
     margin-left: 5px;
+    opacity: 0.5;
   
 }
 
@@ -368,7 +369,6 @@ figure img {
    margin-left: 20%;   
    
 }
-.hang{
-    float: right;
-    
-}
+
+
+
